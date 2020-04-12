@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #3d94db;
+}
+
+.container {
+    color: #fff;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+
+}
+
+
+h1 {
+    font-size: 7rem;
+    padding: 20px 0;
+}
+
+h2,
+h3 {
+
+    font-size: 3rem;
+}
+
+p,
+li {
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section img {
+    display: block;
+    margin: 0 auto;
+}
+
+article {
+    height: 550px;
+
+}
+
+header {
+    padding: 50px 0;
+}
+
+
+#map {
+    height: 575px;
+    width: 100%;
+}
+
+#legend {
+    font-family: Times New Roman, sans-serif;
+    background: gray;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #000;
+    width: 12%;
+}
+
+#legend h3 {
+    margin-top: 0;
+}
+
+#legend img {
+    vertical-align: middle;
+}
+
+
+
+footer {
+    padding: 100px 0 0 45px;
+    text-align: right;
+}
+
+footer p {
+    font-size: 1.5rem;
+    color: #101010;
+    padding-bottom: 40px;
+}
