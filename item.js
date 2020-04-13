@@ -60,14 +60,18 @@ let weirdItems = fetch('https://msotera.github.io/module5/items.json')
             let ul = document.createElement('ul');
 
 
-
+            //set image attribute - set location - we are getting image from github repository
+            //set image attribute - catItems[] - set to array.image
+            //header text content can be found in json file under name
+            //paragraph text content can be found in json file under price
             img.setAttribute('src', 'https://msotera.github.io/module5/img/' + catItems[i].image);
             img.setAttribute('alt', catItems[i].image);
             h2.textContent = catItems[i].name;
             p1.textContent = 'Price ' + catItems[i].price;
 
 
-
+            //create variable details, get information from json catItems array under details
+            //create html element for list item and attach it to textContent from json
             let details = catItems[i].details;
             for (let j = 0; j < details.length; j++) {
                 let listItem = document.createElement('li');
@@ -76,7 +80,7 @@ let weirdItems = fetch('https://msotera.github.io/module5/items.json')
             }
 
 
-
+            //append the nodes
             article.appendChild(img);
             article.appendChild(h2);
             article.appendChild(p1);
